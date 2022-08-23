@@ -1,0 +1,3 @@
+discord==2.0.0
+neuralintents==0.0.4
+python-dotenv==0.20.0
