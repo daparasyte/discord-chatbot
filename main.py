@@ -14,6 +14,9 @@ bot = discord.Client(intents=intents)
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 
+@bot.event
+async def on_ready():
+    print(bot.user.name + ' is running...')
 
 @bot.event
 async def on_message(message):
